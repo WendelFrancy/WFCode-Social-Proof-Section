@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+body {
+    display: flex;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 80rem, 120rem;
+    background-position: right 47vw bottom 40vh, left 15vw top 2vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.topsec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maintxt h1 {
+    font-size: 4.5rem;
+    max-width: 40rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.maintxt h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    max-width: 38rem;
+    margin-top: 2rem;
+    color: hsl(303, 10%, 53%);
+}
+
+.secstars {
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 1rem;
+}
+
+.rev {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    min-width: 35rem;
+    margin: 0 8rem 0 0;
+    padding: 1rem 1.5rem;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.guru {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    min-width: 35rem;
+    margin: 0 4rem 0 0;
+    padding: 1rem 1.5rem;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.besttech {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    min-width: 35rem;
+    padding: 1rem 1.5rem;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.stars {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.secstars p {
+    font-size: 1.5rem;
+    margin: 0 2rem;
+}
+
+.cards {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    padding-top: 5rem;
+    max-width: 90rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.coltoncard {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    padding: 2.5rem 2rem;
+}
+
+.irenecard {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    min-height: 15rem;
+    margin-top: 4rem;
+    padding: 2.5rem 2rem;
+}
+
+.annecard{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    min-height: 15rem;
+    margin-top: 6rem;
+    padding: 2.5rem 2rem;
+}
+
+.cardtext {
+    display: flex;
+    align-items: center;
+}
+
+.cardtext img {
+    border-radius: 3rem;
+    max-width: 3.5rem;
+    margin: 0 2rem 0 0;
+}
+
+.cardtext h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsl(300, 24%, 96%);
+}
+
+.cardtext h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    color: hsl(333, 80%, 67%);
+}
+
+.cards p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height:  2rem;
+    color: hsl(300, 24%, 96%);
+    margin-top: 2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    font-weight: 600;
+    color: hsl(300, 43%, 22%);
+}
+.attribution a {
+    color: hsl(333, 80%, 67%);
+}
